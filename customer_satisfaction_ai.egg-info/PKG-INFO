@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: customer-satisfaction-ai
+Version: 0.0.1
+Summary: A module to evaluate Customer_satisfaction strategies and to build metrics based on it
+Home-page: ['https://github.com/sednabcn/customer_satisfaction_ai', 'https://github.com/sednabcn/customer_satisfaction_ai/issues']
+Author: Ruperto Pedro Bonet Chaple
+Author-email: "Ph.D. Ruperto Pedro Bonet Chaple" <ruperto.bonet@modelphysmat.com>
+Project-URL: Homepage, https://github.com/sednabcn/customer_satisfaction_ai
+Project-URL: Bug Tracker, https://github.com/sednabcn/customer_satisfaction_ai/issues
+Keywords: customer_satisfaction data_analisys setuptools development
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE

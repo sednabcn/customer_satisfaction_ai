@@ -1,5 +1,3 @@
-
-
 [build-system]
 requires=["setuptools>=42","versioneer[toml]","importlib.metadata"]							
 build-backend="setuptools.build_meta"
@@ -8,13 +6,13 @@ build-backend="setuptools.build_meta"
 [metadata]
 version = "attr: satisfaction.__version__"
 dynamic=["version","keywords","license"]
-scripts=["bin/api.py"]
+scripts=[" "]
 [project]
 name="customer_satisfaction_ai"
 authors=[{name="Ph.D. Ruperto Pedro Bonet Chaple", email="ruperto.bonet@modelphysmat.com"}]
 version="0.0.1"
 description="A module to evaluate Customer_satisfaction strategies and to build metrics based on it"
-readme="Readme.md"
+readme="README.md"
 requires-python = ">=3.8"
 classifiers = [
 "Programming Language :: Python :: 3",

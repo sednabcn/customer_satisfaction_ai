@@ -2,7 +2,7 @@ import versioneer
 from setuptools import find_packages, setup
 
 setup(
-    name="simleng_ai",  # unknown option
+    name="satisfaction",  # unknown option
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     description="A module to evaluate Data_Analysis for customer_satisfaction starategies",
@@ -29,7 +29,7 @@ setup(
     readme="Readme.md",  # unknown option
     python_requires=">=3.8",
     keywords="customer_satisfaction data_analisys setuptools development",
-    # manifest_in=["./input_file/customer_satisfaction.txt","./datasets/*"],
+    
     install_requires=[
         "biokit >=0.5.0",
         "colormap>=1.0.4",
@@ -43,7 +43,7 @@ setup(
     ],
     test_suite="nose.collector",
     tests_require=["nose"],
-    scripts=["  "],
+    #scripts=["bin/api.py"],
     include_package_data=True,
     zip_safe=False,
 )
