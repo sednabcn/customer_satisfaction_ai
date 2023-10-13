@@ -1,0 +1,71 @@
+(103904, 24)
+Index(['id', 'Gender', 'Customer Type', 'Age', 'Type of Travel', 'Class',
+       'Flight Distance', 'Inflight wifi service',
+       'Departure/Arrival time convenient', 'Ease of Online booking',
+       'Gate location', 'Food and drink', 'Online boarding', 'Seat comfort',
+       'Inflight entertainment', 'On-board service', 'Leg room service',
+       'Baggage handling', 'Checkin service', 'Inflight service',
+       'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes',
+       'satisfaction'],
+      dtype='object')
+Index([     0,      1,      2,      3,      4,      5,      6,      7,      8,
+            9,
+       ...
+       103894, 103895, 103896, 103897, 103898, 103899, 103900, 103901, 103902,
+       103903],
+      dtype='int64', length=103904)
+       id  Gender  ... Arrival Delay in Minutes             satisfaction
+0   70172    Male  ...                     18.0  neutral or dissatisfied
+1    5047    Male  ...                      6.0  neutral or dissatisfied
+2  110028  Female  ...                      0.0                satisfied
+
+[3 rows x 24 columns]
+=======================
+{'satisfied', 'neutral or dissatisfied'}
+satisfaction
+neutral or dissatisfied    58879
+satisfied                  45025
+Name: count, dtype: int64
+train_satisfied 
+ satisfied 45025 Percentage: 43.33
+==train=group by=satisfaction===
+                            id  ...  Arrival Delay in Minutes
+satisfaction                    ...                          
+neutral or dissatisfied  58879  ...                     58697
+satisfied                45025  ...                     44897
+
+[2 rows x 23 columns]
+=========TEST CSV==============
+(25976, 24)
+Index(['id', 'Gender', 'Customer Type', 'Age', 'Type of Travel', 'Class',
+       'Flight Distance', 'Inflight wifi service',
+       'Departure/Arrival time convenient', 'Ease of Online booking',
+       'Gate location', 'Food and drink', 'Online boarding', 'Seat comfort',
+       'Inflight entertainment', 'On-board service', 'Leg room service',
+       'Baggage handling', 'Checkin service', 'Inflight service',
+       'Cleanliness', 'Departure Delay in Minutes', 'Arrival Delay in Minutes',
+       'satisfaction'],
+      dtype='object')
+RangeIndex(start=0, stop=25976, step=1)
+      id  Gender      Customer Type  Age
+0  19556  Female     Loyal Customer   52
+1  90035  Female     Loyal Customer   36
+2  12360    Male  disloyal Customer   20
+3  77959    Male     Loyal Customer   44
+4  36875  Female     Loyal Customer   49
+=====================
+==========================
+satisfaction
+neutral or dissatisfied    14573
+satisfied                  11403
+Name: count, dtype: int64
+test_satisfied 
+ satisfied 11403 Percentage: 43.90
+==test=group by=satisfaction===
+25976
+                            id  ...  Arrival Delay in Minutes
+satisfaction                    ...                          
+neutral or dissatisfied  14573  ...                     14528
+satisfied                11403  ...                     11365
+
+[2 rows x 23 columns]
