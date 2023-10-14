@@ -1,0 +1,9 @@
+Order  Feature_names_out             Incremented Weight
+       'Type of Travel', 'Class':          75.71
+       'Online_Boarding'        :          +4.07
+       'Customer Type'          :          +1.76
+       'Easy of Online Booking' :          +1.46
+       'Inflight Wifi service'  :          +0.91
+       'Flight Distance'        :          +0.43
+       'On_board service'       :          +0.14
+       'Gate location'          :          +0.14

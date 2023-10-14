@@ -1,0 +1,25 @@
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py                              
+#Features:  2 Accuracy: 75.71
+#Features:  3 Accuracy: 72.93
+#Features:  4 Accuracy: 76.10
+#Features:  5 Accuracy: 75.54
+#Features:  6 Accuracy: 76.19
+#Features:  7 Accuracy: 76.68
+#Features:  8 Accuracy: 78.14
+#Features:  9 Accuracy: 77.88
+#Features: 10 Accuracy: 78.28
+#Features: 11 Accuracy: 78.37
+#Features: 12 Accuracy: 78.24
+#Features: 13 Accuracy: 78.25
+#Features: 14 Accuracy: 80.34
+#Features: 15 Accuracy: 80.44
+#Features: 16 Accuracy: 80.41
+#Features: 17 Accuracy: 80.55
+#Features: 18 Accuracy: 80.65
+#Features: 19 Accuracy: 81.07
+#Features: 20 Accuracy: 81.07
+#Features: 21 Accuracy: 60.66
+#Features: 22 Accuracy: 75.17
+#Features: 23 Accuracy: 76.32
+                                

@@ -1,0 +1,113 @@
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Customer Type' 'Type of Travel' 'Class' 'Flight Distance'
+ 'Inflight wifi service' 'Ease of Online booking' 'Gate location'                                           
+ 'Food and drink' 'Online boarding' 'Seat comfort'                                                          
+ 'Inflight entertainment' 'On-board service' 'Leg room service'                                             
+ 'Baggage handling' 'Checkin service' 'Inflight service' 'Cleanliness']                                     
+#Features: 17 Accuracy: 80.55                                                                               
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Customer Type' 'Type of Travel' 'Class' 'Flight Distance'
+ 'Inflight wifi service' 'Ease of Online booking' 'Food and drink'                                          
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'                                                  
+ 'On-board service' 'Leg room service' 'Baggage handling'                                                   
+ 'Checkin service' 'Inflight service' 'Cleanliness']                                                        
+#Features: 16 Accuracy: 80.41                                                                               
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Customer Type' 'Type of Travel' 'Class' 'Flight Distance'
+ 'Inflight wifi service' 'Ease of Online booking' 'Online boarding'
+ 'Seat comfort' 'Inflight entertainment' 'On-board service'
+ 'Leg room service' 'Baggage handling' 'Checkin service'
+ 'Inflight service' 'Cleanliness']
+#Features: 15 Accuracy: 80.44
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Flight Distance' 'Inflight wifi service'
+ 'Ease of Online booking' 'Online boarding' 'Seat comfort'
+ 'Inflight entertainment' 'On-board service' 'Leg room service'
+ 'Baggage handling' 'Checkin service' 'Inflight service' 'Cleanliness']
+#Features: 14 Accuracy: 78.68
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'
+ 'On-board service' 'Leg room service' 'Baggage handling'
+ 'Checkin service' 'Inflight service' 'Cleanliness']
+#Features: 13 Accuracy: 78.25
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'
+ 'On-board service' 'Leg room service' 'Baggage handling'
+ 'Checkin service' 'Inflight service']
+#Features: 12 Accuracy: 78.24
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'
+ 'On-board service' 'Leg room service' 'Baggage handling'
+ 'Inflight service']
+#Features: 11 Accuracy: 78.37
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'
+ 'On-board service' 'Leg room service' 'Inflight service']
+#Features: 10 Accuracy: 78.28
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Seat comfort' 'Inflight entertainment'
+ 'On-board service' 'Leg room service']
+#Features:  9 Accuracy: 77.88
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Ease of Online booking'
+ 'Online boarding' 'Inflight entertainment' 'On-board service'
+ 'Leg room service']
+#Features:  8 Accuracy: 78.14
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight wifi service' 'Online boarding'
+ 'Inflight entertainment' 'On-board service' 'Leg room service']
+#Features:  7 Accuracy: 76.68
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Online boarding' 'Inflight entertainment'
+ 'On-board service' 'Leg room service']
+#Features:  6 Accuracy: 75.77
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Online boarding' 'Inflight entertainment'
+ 'Leg room service']
+#Features:  5 Accuracy: 75.63
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Online boarding' 'Inflight entertainment']
+#Features:  4 Accuracy: 76.10
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class' 'Inflight entertainment']
+#Features:  3 Accuracy: 72.93
+                                                                                                            
+┌──(agagora㉿kali)-[~/Downloads/CONSUEXP/airlinesat]
+└─$ python3.11 oe.py 
+['Type of Travel' 'Class']
+#Features:  2 Accuracy: 75.71
+                                      

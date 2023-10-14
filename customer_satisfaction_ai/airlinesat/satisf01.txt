@@ -21,7 +21,7 @@ Index([     0,      1,      2,      3,      4,      5,      6,      7,      8,
 
 [3 rows x 24 columns]
 =======================
-{'satisfied', 'neutral or dissatisfied'}
+{'neutral or dissatisfied', 'satisfied'}
 satisfaction
 neutral or dissatisfied    58879
 satisfied                  45025
@@ -35,6 +35,15 @@ neutral or dissatisfied  58879  ...                     58697
 satisfied                45025  ...                     44897
 
 [2 rows x 23 columns]
+==train=group by=Customer Type and satisfaction==
+                                              id  ...  Arrival Delay in Minutes
+Customer Type     satisfaction                    ...                          
+Loyal Customer    neutral or dissatisfied  44390  ...                     44249
+                  satisfied                40533  ...                     40413
+disloyal Customer neutral or dissatisfied  14489  ...                     14448
+                  satisfied                 4492  ...                      4484
+
+[4 rows x 22 columns]
 =========TEST CSV==============
 (25976, 24)
 Index(['id', 'Gender', 'Customer Type', 'Age', 'Type of Travel', 'Class',
@@ -69,3 +78,12 @@ neutral or dissatisfied  14573  ...                     14528
 satisfied                11403  ...                     11365
 
 [2 rows x 23 columns]
+==test=group by=Customer Type and satisfaction==
+                                              id  ...  Arrival Delay in Minutes
+Customer Type     satisfaction                    ...                          
+Loyal Customer    neutral or dissatisfied  10982  ...                     10950
+                  satisfied                10195  ...                     10161
+disloyal Customer neutral or dissatisfied   3591  ...                      3578
+                  satisfied                 1208  ...                      1204
+
+[4 rows x 22 columns]
