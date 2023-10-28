@@ -7,3 +7,12 @@ Order  Feature_names_out             Incremented Weight
        'Flight Distance'        :          +0.43
        'On_board service'       :          +0.14
        'Gate location'          :          +0.14
+Order  Feature_names_out             Incremented Accuracy Weight
+       'Type of Travel', 'Class':          75.71
+       'Online boarding'        :          +4.07
+       'Customer Type'          :          +1.76
+       'Ease of Online booking' :          +1.46
+       'Inflight wifi service'  :          +0.91
+       'Flight Distance'        :          +0.43
+       'On-board service'       :          +0.14
+       'Gate location'          :          +0.14
